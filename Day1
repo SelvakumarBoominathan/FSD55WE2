@@ -1,0 +1,45 @@
+1. Difference between HTTP1.1 vs HTTP2
+HTTP1.1:
+It enables only a single connection for each request
+It is a text based protocol. thus it can be inefficient in terms of parsing and transmitting.
+It does not support explicit  prioritization of request.
+In this headers are sent in a plain text and not compressed. which leads to reduntant of data transfer.
+Transport Layer Security is optional here.
+HTTP2:
+It enables multiple requests and responses to be multiplexed over a single connection. It improves efficiency and latency.
+It uses binary protocol method and thus it is more compact and efficient for both client and server process.
+it allows prioritization of request and ensures more important ones to load first.
+It supports for header compression and speeds up the loading of web pages.
+It encourages the usage of TLS for improved security. But it is not mandatory here aswell.
+
+
+2. Write a blog about objects and its internal representation in Javascript
+
+Object in JS provides flexibility in structuring and organizing data. it is a non primitive data type and uses copy by reference by dafault.allows any data type to be part of it.It has Key value pair inside to it.
+
+- We can create objects using either by object literals or using object constructor.
+-we can access properties of object using dot notation.
+- Objects in JS have methods associated with objects. it enables us to perform actions and provides functionality  related to the object.
+
+4. Read about IP address, port, HTTP methods, MAC address:
+
+IP Address: 
+IP - Internet Protocol
+ it is a kind of label given to each and ever machine that is connected to the internet. It provides location address of computers. there aere 2 types in it IPV4 and IPV6.
+It allows devises to communicate with each other via internet and helps us to identify and locating devices in a network.
+
+Port:
+It is a communication end point used by software to establish network connections. it allows multiple apps on a single device to communicate with other device over network.ports are identified by port numbers.
+It ranges from 0 to 65535. ports from 0 to 1023 are well known and used for common services.
+
+HTTP methods: Hypertext Transfer Protocol
+it is a foundation for data communication on WWW.It facilitates transfer of information between browsers(clients).
+Methods : 
+GET: it requests data from a web page. information req only from servers.
+POST : It is something like sublitting a data of user to process.
+PUT : used to update specific resource or create new resource. Like updating age of an user.
+DELETE : used to remove specific resource. deleting a record of a user.
+HEAD : It is similar to GET, but retrives only headers not actual data. eg: checking if a resource has been modified or not.
+OPTIONS : used to describe communication options to a resource.
+PATCH : it is to patrtially modify specific data. Eg: updating a specific data of an resource.
+TRACE : It is for diagnostic purpose to trace the request. Eg: to check path of a request.
